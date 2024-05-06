@@ -13,14 +13,14 @@
 выводить наименьшее число d, которое делится на оба этих числа без остатка.
 
 # put your python code here
-a = int (input())
-b = int (input())
+a = int(input())
+b = int(input())
 s = 1
 k = 2
-while s<k:
-  if s % a == 0 and s % b == 0:
-    k=s
-  else:
-    s=s+1
-    k=k+1
+while s < k:
+    if s % a == 0 and s % b == 0:
+        k = s
+    else:
+        s = s + 1
+        k = k + 1
 print(s)
